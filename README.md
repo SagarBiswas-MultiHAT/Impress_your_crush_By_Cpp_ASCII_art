@@ -10,6 +10,21 @@ Converts an image to ASCII by mapping pixel brightness to characters that best r
 
 ![](Impress_your_crush_By_Cpp_ASCII_art/font-setup.png)
 
+```
+Steps:
+    1. Open PowerShell as administrator
+    2. Run your program there (not in Windows Terminal).
+    3. Right‑click the title bar of that PowerShell window.
+    4. Choose Properties (or Defaults if you want it to persist for all future windows).
+    5. Go to the Font tab.
+    6. In the Font list, select: Raster Fonts
+    7. Below that, select the size that shows as 8x12.
+    8. Click OK.
+    9. Resize the window horizontally so no lines wrap (wider is better).
+    10. Re-run:
+    .\Debug\amg.exe -w 220 "https://i.pinimg.com/736x/45/ba/bc/45babc999f84f62f329c50ff8fef55eb.jpg" > output\6.Raster_Fonts.txt
+```
+
 ## Features
 
 - Converts images to ASCII art.
@@ -135,21 +150,6 @@ From the project directory (where the built executable resides in `Debug`):
 ## Raster Font Tip
 
 Tip: For best visual results in the terminal, set the console font to "Raster Fonts" 8x12.
-
-```
-Steps:
-    1. Open PowerShell as administrator
-    2. Run your program there (not in Windows Terminal).
-    3. Right‑click the title bar of that PowerShell window.
-    4. Choose Properties (or Defaults if you want it to persist for all future windows).
-    5. Go to the Font tab.
-    6. In the Font list, select: Raster Fonts
-    7. Below that, select the size that shows as 8x12.
-    8. Click OK.
-    9. Resize the window horizontally so no lines wrap (wider is better).
-    10. Re-run:
-    .\Debug\amg.exe -w 220 "https://i.pinimg.com/736x/45/ba/bc/45babc999f84f62f329c50ff8fef55eb.jpg" > output\6.Raster_Fonts.txt
-```
 
 ## License
 
